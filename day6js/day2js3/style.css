@@ -1,0 +1,84 @@
+body {
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.task-manager {
+    background: #c8f881;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 50px 32px;
+    border-radius: 30px;
+}
+
+.task-manager h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.task-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#addTask {
+    padding: 8px 16px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#addTask:hover {
+    background: #b3aa00;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px 14px;
+    
+}
+
+
+
+#taskList span.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+#taskList button {
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    transition: background 0.2s;
+}
+
+#taskList button:hover {
+    background: #8ea71d;
+}
