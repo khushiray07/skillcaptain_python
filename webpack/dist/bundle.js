@@ -1,1 +1,0 @@
-console.log(["Jaipur","Delhi","paris"]);
